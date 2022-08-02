@@ -8,14 +8,13 @@ For more information about CycloneDX property taxonomies, refer to the [official
 
 | Namespace              | Description                                                                                                             |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| `veracode:metadata`    | Namespace for all Veracode-specific properties dealing with top-level metadata values about applications and projects.  |
+| `veracode:metadata`    | Namespace for all Veracode-specific properties dealing with top-level metadata values about bill of materials           |
 | `veracode:component`   | Namespace for all Veracode-specific properties related to components.                                                   |
 
 ## `veracode:metadata` Namespace Taxonomy
 
 | Property Name                              | Description                                                                                         |
 | ------------------------------------------ | --------------------------------------------------------------------------------------------------- |
-| `veracode:metadata:scan_type`              | Veracode scan type (application, agent) supplied by API user via API parameter                      |
 | `veracode:metadata:linked`                 | True/False API parameter supplied by API user whether results from linked projects were included    |
 
 ## `veracode:component` Namespace Taxonomy
@@ -26,4 +25,4 @@ For more information about CycloneDX property taxonomies, refer to the [official
 | `veracode:component:project_id`        | GUID for project                                                                                        |
 | `veracode:component:scan_id`           | GUID for latest scan                                                                                    |
 | `veracode:component:last_scan_date`    | Date application or project was last scanned                                                            |
-| `veracode:component:first_found_date`  | Date component was last seen in application or project                                                  |
+| `veracode:component:first_found_date`  | Date component was first found in application or project                                                |
