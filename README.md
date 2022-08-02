@@ -22,5 +22,5 @@ For more information about CycloneDX property taxonomies, refer to the [official
 
 | Property Name                     | Description                                                                                                            |
 | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| `veracode:sbom:first_found`       | Date component was first found in application.                                                                         |
-| `veracode:sbom:last_seen`         | Date component was last seen in application.                                                                           |
+| `veracode:component:first_found`       | Date component was first found in application.                                                                         |
+| `veracode:component:last_seen`         | Date component was last seen in application.                                                                           |
