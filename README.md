@@ -13,14 +13,17 @@ For more information about CycloneDX property taxonomies, refer to the [official
 
 ## `veracode:metadata` Namespace Taxonomy
 
-| Property Name                              | Description                                                                              |
-| ------------------------------------------ | ---------------------------------------------------------------------------------------- |
-| `veracode:metadata:type`                   | Veracode scan type (application, agent) supplied by API user via API parameter           |
-| `veracode:metadata:version`                | Application/project version supplied by API user via API parameter                       |
+| Property Name                              | Description                                                                                         |
+| ------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| `veracode:metadata:scan_type`              | Veracode scan type (application, agent) supplied by API user via API parameter                      |
+| `veracode:metadata:linked`                 | True/False API parameter supplied by API user whether results from linked projects were included    |
 
 ## `veracode:component` Namespace Taxonomy
 
-| Property Name                     | Description                                                                                                            |
-| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| `veracode:component:first_found`       | Date component was first found in application.                                                                         |
-| `veracode:component:last_seen`         | Date component was last seen in application.                                                                           |
+| Property Name                          | Description                                                                                             |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| `veracode:component:app_id`            | GUID for application                                                                                    |
+| `veracode:component:project_id`        | GUID for project                                                                                        |
+| `veracode:component:scan_id`           | GUID for latest scan                                                                                    |
+| `veracode:component:last_scan_date`    | Date application or project was last scanned                                                            |
+| `veracode:component:first_found_date`  | Date component was last seen in application or project                                                  |
