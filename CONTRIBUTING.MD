@@ -14,5 +14,5 @@ Please follow the instructions below to make a contribution.
 
 ## Contributors
 
-- [Tim Jarrett](https://github.com/tjarrettveracode)
+- [John Crowley](https://github.com/jcrowleyveracode)
 - [Peter Monaghan](https://github.com/pdbm978)
