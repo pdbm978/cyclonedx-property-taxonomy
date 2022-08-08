@@ -24,5 +24,6 @@ For more information about CycloneDX property taxonomies, refer to the [official
 | `veracode:component:app_id`            | GUID for application                                                                                    |
 | `veracode:component:project_id`        | GUID for project                                                                                        |
 | `veracode:component:scan_id`           | GUID for latest scan                                                                                    |
+| `veracode:component:scan_name`         | Name of latest scan                                                                                    |
 | `veracode:component:last_scan_date`    | Date application or project was last scanned                                                            |
 | `veracode:component:first_found_date`  | Date component was first found in application or project                                                |
